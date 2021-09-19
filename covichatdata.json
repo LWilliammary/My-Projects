@@ -1,0 +1,151 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Hello"],
+     "responses": ["Hello", "Hi","Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?"],
+     "responses": ["I am covichatbot, your bot assistant"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?","Your name please?", "May i know your name?"],
+    "responses": ["You can call me covichatbot", "I'm covichatbot", "Just call me as covichatbot"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "coronavirus",
+    "patterns": ["I need to know about coronavirus"],
+    "responses": ["Sure I will help you"]
+    },
+    {"tag": "affected organs",
+    "patterns": ["What are the organs most affected by COVID-19?","affected organs","organs affected by coronavirus","organs"],
+    "responses": ["The lungs are the organs most affected by COVID"]
+    },
+    {"tag": "common symptoms",
+    "patterns": ["What are some of the most common symptoms of the coronavirus disease?","common symptoms","Covid symptoms","coronavirus symptoms"],
+    "responses": ["fever, dry cough, and tiredness. Other symptoms that are loss of taste or smell, aches and pains, headache, sore throat, nasal congestion, red eyes, diarrhoea, or a skin rash"]
+    },
+    {"tag": "basic symptoms",
+    "patterns": ["What are the basic symptoms of coronavirus?","basic symptoms","basic coronavirus symptoms","coronavirus basic symptoms"],
+    "responses": ["symptoms include respiratory symptoms and include fever, cough and shortness of breath,infection can cause pneumonia, severe acute respiratory syndrome and sometimes death"]
+    },
+    {"tag": "incubation period",
+    "patterns": ["What is the incubation period of COVID-19?","incubation period of covid","incubation period of coronavirus","incubation period of covid-19","coronaviurs incubation period","covid-19 incubation period"],
+    "responses": ["The median incubation period is 5.1 days (range 1–14 days)"]
+    },
+    {"tag": "self-quarantine",
+    "patterns": ["How long should I self-quarantine if I have been exposed to COVID-19?","self quarantine period","self-quarantine period of covid-19"],
+    "responses": ["self-quarantine for 14 days"]
+    },
+    {"tag": "home isolation",
+    "patterns": ["How long should a COVID-19 patient be under home isolation for?","home isolation","isolation"],
+    "responses": ["home isolation will stand discharged and end isolation after at least 10 days"]
+    },
+    {"tag": "vaccination",
+    "patterns": ["Can I download the appointment slip for COVID-19 vaccination?","vaccination appointment slip"],
+    "responses": ["yes"]
+    },
+    {"tag": "having covid symptoms",
+    "patterns": ["What should I do if I have symptoms of COVID-19?","what to do if i have covid symptoms"],
+    "responses": ["Stay home and self-isolate even if you have minor symptoms such as cough, headache, mild fever, until you recover"]
+    },
+    {"tag": "typical symptoms",
+    "patterns": ["What are some atypical symptoms of COVID-19?","What are the typical symptoms of covid","coronavirus typical symptoms"],
+    "responses": ["loss of smell, loss of taste, and diarrhea"]
+    },
+    {"tag": "runny nose",
+    "patterns": ["Is runny nose a symptom of COVID-19?","runny nose"],
+    "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough, according to the World Health Organization (WHO). Some patients may have aches and pains, nasal congestion, runny nose, or sore throat"]
+    },
+    {"tag": "exercise",
+    "patterns": ["Can I exercise after Covid vaccine?","exercise after covid vaccine","exercise after covid vaccination"],
+    "responses": ["yes"]
+    },
+    {"tag": "safe",
+    "patterns": ["Are vaccines safe?"],
+    "responses": ["yes"]
+    },
+    {"tag": "Mu variant",
+    "patterns": ["What is the Mu COVID-19 variant?", "Mu variant"],
+    "responses": ["variant of interest"]
+    },
+    {"tag": "safe for pregnant ladies",
+    "patterns": ["Is Covid vaccine safe for pregnant ladies?","safe for pregnant ladies","vaccine safe for pregnant ladies"],
+    "responses": ["pregnant women are at risk for severe illness with COVID-19, along with their unborn infants and newborn babies. Given available data, the messenger ribonucleic acid (mRNA) vaccines now in use are both safe and immunogenic in pregnancy."]
+    },
+    {"tag": "complications",
+    "patterns": ["What are some possible complications after recovering from COVID-19?","complications after recovering","complications after covid"],
+    "responses": ["Recovered patients after acute COVID-19 illness may continue to experience various signs and symptoms including fatigue, body ache, cough, sore throat, difficulty in breathing, etc"]
+    },
+    {"tag": "covid spread",
+    "patterns": ["How does COVID-19 spread?","spreads covid","spread of covid-19","how covid spread"],
+    "responses": ["people who are in close contact with each other, typically within 1 metre (short-range). A person can be infected when aerosols or droplets containing the virus are inhaled or come directly into contact with the eyes, nose, or mouth"]
+    },
+    {"tag": "first discovered",
+    "patterns": ["Where was COVID-19 first discovered?","first discovered","coronavirus discovered at"],
+    "responses": ["The first known infections from SARS-CoV-2 were discovered in Wuhan, China"]
+    },
+    {"tag": "first identified",
+    "patterns": ["When was COVID-19 first identified?","first identified on","coronavirus identified year"],
+    "responses": ["On 31 December 2019, WHO was informed of cases of pneumonia of unknown cause in Wuhan City, China"]
+    },
+    {"tag": "origin",
+    "patterns": ["What is the origin of COVID-19?","origin","covid origin","covid-19 origin"],
+    "responses": ["Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a novel severe acute respiratory syndrome coronavirus"]
+    },
+    {"tag": "side effects",
+    "patterns": ["Are there any side effects from the COVID-19 vaccine?","covid-19 vaccine side effects","side effects covid-19 vaccine"],
+    "responses": ["COVID-19 vaccines can cause mild, short term side effects, low-grade fever or pain or redness at the injection site"]
+    },
+    {"tag": "covid stands",
+    "patterns": ["What does COVID-19 stand for?","covid stands for","coronavirus stands for"],
+    "responses": ["'CO' stands for corona, 'VI' for virus, and 'D' for disease. Formerly, this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.' The COVID-19 virus is a new virus linked to the same family of viruses as Severe Acute Respiratory Syndrome (SARS) and some types of common cold"]
+    },
+    {"tag": "covid death status",
+    "patterns": ["New cases and deaths","coronavirus death","coronavirus new cases","what is today's death", "covid death","today's death count","today's covid death case"],
+    "responses": ["Please check this website for live update https://www.worldometers.info/coronavirus/, https://covid19.who.int/,"]
+    },
+    {"tag": "covid new cases",
+    "patterns": ["New cases","New case","coronavirus positive cases","coronavirus new cases","what is today's new case", "covid positive case","today's new case","today's covid positive count"],
+    "responses": ["Please check this website for live update https://www.worldometers.info/coronavirus/, https://covid19.who.int/,"]
+    },
+    {"tag": "vaccination website",
+    "patterns": ["What is the COVID-19 vaccination website?","cowin","cowin website","download vaccination certificate","vaccination website","portal","cowin portal","website address","total vaccination","total vaccination doses"],
+    "responses": ["Please check this website https://www.cowin.gov.in/"]
+    },
+    {"tag": "registration",
+    "patterns": ["registration","vaccination registration count","total registration for vaccination","total registration"],
+    "responses": ["Please check this website https://dashboard.cowin.gov.in/"]
+    },
+    {"tag": "dashboard",
+    "patterns": ["What is the COVID-19 dashboard?","covid dashboard","show case covid dashboard"],
+    "responses": ["Please check this website https://covid19.who.int/"]
+    },
+    {"tag": "helpline",
+    "patterns": ["What is the COVID-19 helpline number?","covid helpline number","help line"],
+    "responses": ["Helpline Number: +91-11-23978046.Toll Free: 1075.Helpline Email ID: ncov2019@gov.in"]
+    },
+    {"tag": "home remedies",
+    "patterns": ["Any home remedies?","Ways to reduce the effect of Covid-19"],
+    "responses": ["Drinking Indian ayurvedic drink Kadha, Wearing mask whenever you move out of your house , Taking adequate fluids , Taking extra care of adults(especially aged person) , Increased intake of Vitamins"]
+    },
+    {"tag": "coronavirus diseases",
+    "patterns": ["What are coronavirus diseases?","other covid-19 diseases"],
+    "responses": ["Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can range from mild to lethal."]
+    },
+    {"tag": "available vaccines",
+    "patterns": ["what are all the vaccines available for covid-19?","types of vaccines available","tell me the vaccine list"],
+    "responses": ["yes,There are 13 different vaccines (across 4 platforms) have been administered globally. You can get more details here https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines"]
+    }
+]
+}
