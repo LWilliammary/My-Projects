@@ -1,20 +1,29 @@
-Project: Chatbot (Covichatbot) 
+**Project:** Chatbot (Covichatbot) 
 
-Repository Details This repository contains Covichatbot’s Data File, Notbook, Source File. The Covichatbot is trained to respond users input about coronavirus (COVID-19).
+**Repository Details:** Repository contains Covichatbot’s Data File, Notbook, Source File. The Covichatbot is trained to respond users input about coronavirus (COVID-19).
 
-Objectives -> User Interactions - trained to respond customers queries -> Helps in responding 24/7 ->Multilingual Chatbot (able to answer enligh and french)
+**Objectives **
 
-Data JSON file containing replies for each intent
+-> User Interactions - trained to respond customers queries 
+-> Helps in responding 24/7 
 
-Instructions
+**Data** 
 
-Install Packages pip install tensorflow pip install keras -> Install all the required packages ->Import libraries
+JSON file containing replies for each intent
 
-Source File source.py
+**Instructions**
 
-Notebook Notebook.ipynb
+->Install Packages pip install tensorflow pip install keras -> Install all the required packages ->Import libraries
 
-Python Code Snippet
+**Source File** 
+
+source.py
+
+**Notebook** 
+
+Notebook.ipynb
+
+**Python Code Snippet**
 
 #load the json file and extract the required data
 
@@ -38,6 +47,6 @@ model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=
 
 model.summary()
 
-Script
+**Script**
 
 epochs = 500 history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs) model.save("covichat_model") import pickle with open('tokenizer.pickle', 'wb') as handle: pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL) with open('label_encoder.pickle', 'wb') as ecn_file: pickle.dump(lbl_encoder, ecn_file, protocol=pickle.HIGHEST_PROTOCOL)
