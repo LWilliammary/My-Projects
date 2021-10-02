@@ -2,7 +2,7 @@
 
 **Repository Details:** Repository contains Covichatbot’s Data File, Notbook, Source File. The Covichatbot is trained to respond users input about coronavirus (COVID-19).
 
-**Objectives **
+**Objectives**
 
 -> User Interactions - trained to respond customers queries 
 -> Helps in responding 24/7 
